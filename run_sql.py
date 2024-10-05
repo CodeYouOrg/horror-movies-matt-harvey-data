@@ -94,7 +94,9 @@ def main() -> None:
         
     conn.close()
 
-    return None
+    return movies
+
+print(main())
 
 
 if __name__ == "__main__":
